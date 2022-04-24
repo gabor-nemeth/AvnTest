@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvnTest", "AvnTest\AvnTest.csproj", "{A2FA10BC-9392-4829-98FC-D31D31CC00CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvnTestNet6", "AvnTestNet6\AvnTestNet6.csproj", "{7011D864-8BF0-498E-ABD2-5F288FE922C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2FA10BC-9392-4829-98FC-D31D31CC00CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FA10BC-9392-4829-98FC-D31D31CC00CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FA10BC-9392-4829-98FC-D31D31CC00CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FA10BC-9392-4829-98FC-D31D31CC00CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7011D864-8BF0-498E-ABD2-5F288FE922C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7011D864-8BF0-498E-ABD2-5F288FE922C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7011D864-8BF0-498E-ABD2-5F288FE922C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7011D864-8BF0-498E-ABD2-5F288FE922C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
