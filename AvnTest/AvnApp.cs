@@ -31,14 +31,18 @@ class MainWindow : Window
         Renderer.DrawFps = true;
         Width = 640;
         Height = 480;
-        Background = Brushes.Green;
-        TransparencyLevelHint = WindowTransparencyLevel.None;
+        //Background = Brushes.Green;
+        //TransparencyLevelHint = WindowTransparencyLevel.None;
         Title = "Main Window";
-        WindowState = WindowState.Normal;
-        
-        Content = new Button
+        //WindowState = WindowState.Normal;
+
+        var tb1 = new TextBox
         {
-            Content = "Click Me!"
+            Text = "Hello Avalonia!"
+        };
+        Content = new StackPanel
+        {
+            Children = { tb1 }
         };
         
         DebugOutput();
